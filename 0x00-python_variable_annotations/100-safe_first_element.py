@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """ Module documentation for task 100 """
-from typing import Sequence, Any, Union
+from typing import Any, Sequence, Union
 
 
 def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
