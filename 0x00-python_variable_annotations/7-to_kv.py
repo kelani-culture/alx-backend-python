@@ -6,7 +6,7 @@ return a tuple of key and value pair
 """
 
 
-def to_kv(k: str, v: Union[float, int]) -> Tuple[str, float]:
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """
     return a tuple of values
     """
