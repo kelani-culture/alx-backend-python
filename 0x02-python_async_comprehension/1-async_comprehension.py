@@ -3,9 +3,13 @@
 async comprehension for returing a list
 """
 import asyncio
-from typing import List, Callable
+from typing import Callable, List
 
-async_generator: Callable = __import__('0-async_generator').async_generator
+async_generator: Callable = __import__("0-async_generator").async_generator
+
 
 async def async_comprehension() -> List[float]:
-    return [ i async for i in async_generator() ]
+    """
+    async comprehension documentation return list
+    """
+    return [i async for i in async_generator()]
