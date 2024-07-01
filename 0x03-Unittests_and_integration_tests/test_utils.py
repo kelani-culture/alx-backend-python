@@ -10,7 +10,7 @@ from parameterized import parameterized  # type: ignore
 from utils import access_nested_map
 
 
-class TestAccessNestedMad(unittest.TestCase):
+class TestAccessNestedMap(unittest.TestCase):
     """
     test the access nested map function
     """
